@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio boostrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="Stylesheet" href="./css/main.css">
+</head>
+<body>
+    <!-- navbar--> 
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger"> 
+        <div class="container-fluid"> 
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.jpg" alt="logo" width="200">
+            </a>
+            <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toogle navigation" > 
+                <span class="navbar-toggler-icon"> </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"> 
+                <ul class="navbar-nav ml-auto"> 
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Summer Pack</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sing In</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- carrusel-->
+    <div id="mainSlider" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/slide01.jpg" class="d-block w-100" alt="Slide uno">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide02.jpg" class="d-block w-100" alt="Slide dos">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/slide03.jpg" class="d-block w-100" alt="Slide tres">
+          </div>
+        </div>
+      </div>
+    <!-- ribbon-->
+    <div id="ribbon" class="container-fluid">
+        <div id="birthday" class="container w-50 pl-5 rounded-lg">
+            <div class="row align-items-center">
+                <div class="col-sm p-3">
+                    <img src="./img/image01.png" alt="perico" class="w-75 mx-auto d-block">
+                </div>
+    
+                <div  class="col-sm p-3 text-light text-center">
+                    <p class="text-warning h3">Hoy cumple</p>
+                    <h4 class="hs text-shadow">Moncholito</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- separador ribbon-->
+    <div id="separator-ribbon">
+        <div class="content bg-warning"></div>
+    </div> 
+    <!-- games-->
+    <div id="games">
+        <div class="container-md p-5"> 
+            <div  class="row pt-5"> 
+                <h3 class="text-center pb-5 pt-5 h1">Featured Animal Crossing Games</h3>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img/card01.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img/card02.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card w-100 card-border mb-5">
+                        <img src="./img/card03.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>  
+                </div>
+            </div> 
+            <div class="row py-5">
+                <div class="col">
+                    <h3 class="text-center" style="color:var(--bs-blue)">More games on Nintendo</h3>
+                </div>
+                <div class="row justify-content-center">            
+                    <div class="col-2"><a href="#">Nintendo Switch</a></div>
+                    <div class="col-2"><a href="#">Nintendo 3DS</a></div>
+                    <div class="col-1"><a href="#">Wii U</a></div>
+                    <div class="col-1"><a href="#">Mobile</a></div>
+                    <div class="col-1"><a href="#">Retro</a></div>
+                </div>
+            </div>            
+        </div>       
+    </div>
+    <!-- separador amibos-->
+    <div id="separator-amiibos">
+        <div class="content bg-success"></div>
+    </div>
+    <!-- amiboos-->    
+    <div id="amiibos"class="px-5 pb-5 bg-success">
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center text-white text-shadow">Featured Amiibos Figures</h2>  
+            </div>
+            <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4">
+                <div class="col-sm">
+                    <img src="./img/figure01.png" alt="" class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Isabelle</span></div>
+                </div>
+                <div class="col-sm">
+                    <img src="./img/figure02.png" alt=""  class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Antonio</span></div>
+                </div>
+                <div class="col-sm">
+                    <img src="./img/figure03.png" alt=""  class="w-100 amiibo"> 
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Esteban</span></div>
+                </div>
+                <div class="col-sm">
+                    <img src="./img/figure04.png" alt=""  class="w-100 amiibo">
+                    <div class="text-center"><span class="amiibo-name h5 p-2">Michu & Leta</span></div>
+                </div>
+            </div>
+            <div class="row py-5"> 
+                <div class="col text-center">
+                    <a href="#" class="link-dark">
+                        <button class="btn btn-warning btn-lg rounded-pill p-3 font-weight-bold ">View Amiibo Catalog</button>
+                    </a>
+                </div>
+            </div>
+            <div id="separator-amiiibos-footer"></div>
+        </div>
+    </div>
+    <!-- play nintendo-->   
+    <div id="play">
+        <div class="container-sm p-5">
+            <div class="row">
+                <h3 class="text-center h1"> Isabelle and Friends on Plkay Nintendo</h3>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-3 d-none d-md-block" >
+                    <img src="./img/isabelle.png" alt="" class="w-100">
+                </div>
+                <div class="col-9">
+                    <div class="row">
+                        <div class="col p-1">
+                            <!--codigo de carta-->
+                            <div class="card bg-primary text-white ">
+                                <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="./img/ph-01.jpg" class="w-100" alt="...">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- fin codigo de carta -->
+                        </div>
+                        <div class="col p-1">
+                            <!--codigo de carta-->
+                            <div class="card bg-danger text-white ">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/ph-01.jpg" class="w-100" alt="...">
+                                    </div>                                
+                                </div>
+                            </div>
+                            <!-- fin codigo de carta -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col p-1">
+                            <!--codigo de carta-->
+                            <div class="card bg-success text-white ">
+                                <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="./img/ph-01.jpg" class="w-100" alt="...">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <!-- fin codigo de carta -->
+                        </div>
+                        <div class="col p-1">
+                            <!--codigo de carta-->
+                            <div class="card bg-warning text-white ">
+                                <div class="row g-0">
+                                    <div class="col-md-6">
+                                        <div class="card-body">
+                                        <h5 class="card-title">Card title</h5>
+                                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <img src="./img/ph-01.jpg" class="w-100" alt="...">
+                                    </div>                                
+                                </div>
+                            </div>
+                            <!-- fin codigo de carta -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer--> 
+    <div id="footer">
+        <div class="container w-50 pt-5">
+            <div class="row justify-content-center ">
+                <div class="col text-center">
+                    <a href="#">
+                        <button class="btn btn-lg rounded-pill btn-warning w-100 p-3 shadow-sm font-weight-bold">Customer Support</button>
+                    </a>
+                </div>
+            </div>
+            <div class="row Justtify-content-md-center py-5">
+                <div class="col text-center font-weight-light">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nostrum veniam, voluptatem similique ullam voluptas et doloremque tempora eos accusantium at nemo nobis eius numquam aperiam voluptates. Officia, harum omnis?
+                    Amet eveniet, voluptatem dolorem magni quo nulla praesentium commodi ea ipsum pariatur molestiae rem modi illo vitae obcaecati, suscipit, sint deserunt hic voluptas quas rerum perspiciatis eaque aut harum. Pariatur.
+                    Voluptates omnis dicta eligendi? Perspiciatis porro quasi velit minima, facere tenetur vitae maiores sit consequuntur repudiandae. Saepe incidunt quas voluptates, corrupti tempora quis, maxime corporis fugit, culpa recusandae velit alias!
+                    Deleniti fuga voluptatibus doloremque ut necessitatibus provident facilis, hic quibusdam reiciendis et dolor, consequatur cupiditate dignissimos dolorum, blanditiis inventore fugiat accusantium aspernatur! Dicta perspiciatis illo aliquam et delectus necessitatibus sunt!
+                    Pariatur aliquam perferendis dignissimos magnam molestias, ipsum iure aperiam maiores, amet modi labore? Aliquid, praesentium esse! Dolorum laborum, magni veritatis ipsam nemo ratione, fuga ipsa ex, temporibus quae enim adipisci.
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+    <script src="./js/popper.min.js"></script>  
+    <script src="./js/bootstrap.min.js"></script>  
+    
+    
+</body>
+</html>
